@@ -1,7 +1,8 @@
 # DVB-T MÉRÉSI JEGYZŐKÖNYV
 Mérés helye: Miskolci SZC Kandó Kálmán Informatikai Technikum  
 Mérés időpontja: 2024.10.03.  
-Mérő műszerek: METEK HD - SV:1.17.2002 - SN: 2109010000052  
+Mérő műszerek: METEK HD - SV:1.18.2023 - SN: 211112002390
+  
 Felelős személy: Sándor Péter  
 Cél: A DVB-T jel minőségi paramétereinek mérése.  
 
@@ -19,10 +20,30 @@ Adó távolsága: 773,73m
 ## 3. Mérési paraméterek
 Paraméter	Érték  
 ---
-Adó frekvencia	586 MHz  
-Sávszélesség	8MHz  
+Adó frekvencia	586 MHz    
+Sávszélesség	8MHz   
 Moduláció típusa	64-QAM, 8K, 1/4  
-Jelerősség (RSSI)	59.1 dBu  
-MER	31.1 dB  
-Noise Margin	14.0  
-Hiba nélkül vett adás időtartama	200 sec  
+Jelerősség (RSSI)	61.9dBu    
+MER	32.2 dB  
+Noise Margin	15.5  
+Hiba nélkül vett adás időtartama	199 sec  
+
+<img width="1280" height="720" alt="its_snapshot_0028" src="https://github.com/user-attachments/assets/94fd6600-a951-493f-899c-50c404bd933b" />
+<img width="1280" height="720" alt="its_snapshot_0027" src="https://github.com/user-attachments/assets/7f717106-7186-4a03-997f-4a2cd8e14860" />
+
+# 4. Mérési eredmények #
+**>>** Jelerősség: A mért jelerősség 61.9 dBu. Ez az érték stabil volt 199 másodperces időtartam alatt, és megfelel a DVB-T előírásoknak. A mérési helyen a jel optimális volt.  
+**>>** Modulációs paraméterek: A 64-QAM moduláció esetén a mért jel/zaj viszony (SNR) 12 dB körül váltakozott, ami megfelel a követelményeknek.  
+**>>** Modulation Error Ratio (MER): A mért MER érték 32.2 dB volt, amely azt mutatja, hogy a vétel probléma mentes volt.  
+
+# 5. Elemzés #
+Az eredmények alapján a mérési helyen megfelelő minőségű DVB-T vétel biztosítható. A jelerősség és SNR értékek a megadott határértékek között mozogtak. A MER alacsony, és nem okozott észlelhető minőségromlást a vételben. A moduláció stabil volt, és nem voltak nagyobb interferenciák a mérések során.
+
+# 6. Következtetések #
+**>>** A mérési helyen a DVB-T jel stabil és megfelelő minőségű.  
+**>>** A rendszer modulációs és vételi paraméterei kielégítik a DVB-T előírásokat.  
+**>>** A jel/zaj viszony és a jelminőség értékei optimálisak voltak a földfelszíni sugárzás vételéhez.  
+# 7. Javaslatok #
+Ha szükséges, meg kell vizsgálni az antennarendszer fejlesztésének lehetőségét, vagy további méréseket kell végezni különböző időjárási körülmények között, hogy hosszú távon is biztosított legyen a megfelelő minőségű vétel.
+
+
